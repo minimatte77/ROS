@@ -1,0 +1,8 @@
+prefix=/home/matteogiovagnini/spiderrobot_ws/install
+
+Name: spiderrobot_description
+Description: Description of spiderrobot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

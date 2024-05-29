@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/matteogiovagnini/arduinobot_ws/install/setup.sh

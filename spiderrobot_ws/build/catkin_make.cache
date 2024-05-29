@@ -1,0 +1,2 @@
+spiderrobot_description:spiderrobot_test
+-DCATKIN_DEVEL_PREFIX=/home/matteogiovagnini/spiderrobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/matteogiovagnini/spiderrobot_ws/install -G Unix Makefiles
