@@ -1,5 +1,6 @@
 #DIRECTORY
 **/build/
+arduinobot_ws/build
 
 # FILE
 *.log
