@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/matteogiovagnini/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_controller/srv/_AnglesConverter.py"
-  "/home/matteogiovagnini/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_controller/srv/__init__.py"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_controller/srv/_AnglesConverter.py"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_controller/srv/__init__.py"
   "CMakeFiles/arduinobot_controller_generate_messages_py"
 )
 

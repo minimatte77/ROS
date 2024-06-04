@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/matteogiovagnini/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_controller/srv/AnglesConverter.lisp"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_controller/srv/AnglesConverter.lisp"
   "CMakeFiles/arduinobot_controller_generate_messages_lisp"
 )
 

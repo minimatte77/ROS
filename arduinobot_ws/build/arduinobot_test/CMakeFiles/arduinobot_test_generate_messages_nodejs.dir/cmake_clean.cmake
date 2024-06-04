@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/matteogiovagnini/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/srv/AddTwoInts.js"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/srv/AddTwoInts.js"
   "CMakeFiles/arduinobot_test_generate_messages_nodejs"
 )
 

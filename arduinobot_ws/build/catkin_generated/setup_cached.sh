@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/matteogiovagnini/arduinobot_ws/build'
+export PWD='/media/psf/GitHub/ROS/arduinobot_ws/build'

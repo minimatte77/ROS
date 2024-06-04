@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/matteogiovagnini/arduinobot_ws/src/arduinobot_test/srv/AddTwoInts.srv"
+services_str = "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_test/srv/AddTwoInts.srv"
 pkg_name = "arduinobot_test"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

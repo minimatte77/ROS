@@ -1,4 +1,4 @@
-prefix=/home/matteogiovagnini/arduinobot_ws/install
+prefix=/media/psf/GitHub/ROS/arduinobot_ws/install
 
 Name: arduinobot_test
 Description: Description of arduinobot_test

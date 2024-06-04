@@ -1,8 +1,8 @@
-prefix=/home/matteogiovagnini/arduinobot_ws/devel
+prefix=/media/psf/GitHub/ROS/arduinobot_ws/devel
 
 Name: arduinobot_test
 Description: Description of arduinobot_test
 Version: 0.0.0
-Cflags: -I/home/matteogiovagnini/arduinobot_ws/devel/include
+Cflags: -I/media/psf/GitHub/ROS/arduinobot_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/matteogiovagnini/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/srv/AddTwoInts.lisp"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/srv/AddTwoInts.lisp"
   "CMakeFiles/arduinobot_test_generate_messages_lisp"
 )
 

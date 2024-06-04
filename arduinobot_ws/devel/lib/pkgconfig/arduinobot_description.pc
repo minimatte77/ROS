@@ -1,4 +1,4 @@
-prefix=/home/matteogiovagnini/arduinobot_ws/devel
+prefix=/media/psf/GitHub/ROS/arduinobot_ws/devel
 
 Name: arduinobot_description
 Description: Description of arduinobot_description

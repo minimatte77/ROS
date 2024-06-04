@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/matteogiovagnini/arduinobot_ws/devel/include/arduinobot_controller/AnglesConverter.h"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_controller/AnglesConverter.h"
   "CMakeFiles/arduinobot_controller_generate_messages_cpp"
 )
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/matteogiovagnini/arduinobot_ws/devel/include/arduinobot_test/AddTwoInts.h"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_test/AddTwoInts.h"
   "CMakeFiles/arduinobot_test_generate_messages_cpp"
 )
 

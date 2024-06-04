@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/matteogiovagnini/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_test/srv/_AddTwoInts.py"
-  "/home/matteogiovagnini/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_test/srv/__init__.py"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_test/srv/_AddTwoInts.py"
+  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_test/srv/__init__.py"
   "CMakeFiles/arduinobot_test_generate_messages_py"
 )
 

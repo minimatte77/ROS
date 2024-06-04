@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteogiovagnini/arduinobot_ws/src
+CMAKE_SOURCE_DIR = /media/psf/GitHub/ROS/arduinobot_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteogiovagnini/arduinobot_ws/build
+CMAKE_BINARY_DIR = /media/psf/GitHub/ROS/arduinobot_ws/build
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -63,10 +63,10 @@ arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/build: roscpp_g
 .PHONY : arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/build
 
 arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	cd /home/matteogiovagnini/arduinobot_ws/build/arduinobot_controller && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
+	cd /media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_controller && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/matteogiovagnini/arduinobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteogiovagnini/arduinobot_ws/src /home/matteogiovagnini/arduinobot_ws/src/arduinobot_controller /home/matteogiovagnini/arduinobot_ws/build /home/matteogiovagnini/arduinobot_ws/build/arduinobot_controller /home/matteogiovagnini/arduinobot_ws/build/arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/psf/GitHub/ROS/arduinobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/GitHub/ROS/arduinobot_ws/src /media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_controller /media/psf/GitHub/ROS/arduinobot_ws/build /media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_controller /media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : arduinobot_controller/CMakeFiles/roscpp_generate_messages_py.dir/depend
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "arduinobot_description"
-PROJECT_SPACE_DIR = "/home/matteogiovagnini/arduinobot_ws/devel"
+PROJECT_SPACE_DIR = "/media/psf/GitHub/ROS/arduinobot_ws/devel"
 PROJECT_VERSION = "0.0.0"

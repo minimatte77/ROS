@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/matteogiovagnini/arduinobot_ws/install/setup.sh
+    local-name: /media/psf/GitHub/ROS/arduinobot_ws/install/setup.sh
