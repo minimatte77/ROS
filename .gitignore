@@ -1,5 +1,5 @@
 #DIRECTORY
-**/build/*
+**/build/
 
 # FILE
 *.log
