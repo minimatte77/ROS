@@ -1,4 +1,4 @@
-prefix=/home/matteogiovagnini/spiderrobot_ws/install
+prefix=/media/psf/GitHub/ROS/spiderrobot_ws/install
 
 Name: spiderrobot_description
 Description: Description of spiderrobot_description

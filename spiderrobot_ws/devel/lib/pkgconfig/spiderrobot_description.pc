@@ -1,4 +1,4 @@
-prefix=/home/matteogiovagnini/spiderrobot_ws/devel
+prefix=/media/psf/GitHub/ROS/spiderrobot_ws/devel
 
 Name: spiderrobot_description
 Description: Description of spiderrobot_description

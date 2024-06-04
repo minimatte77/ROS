@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matteogiovagnini/spiderrobot_ws/src
+CMAKE_SOURCE_DIR = /media/psf/GitHub/ROS/spiderrobot_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matteogiovagnini/spiderrobot_ws/build
+CMAKE_BINARY_DIR = /media/psf/GitHub/ROS/spiderrobot_ws/build
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -63,10 +63,10 @@ spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/build: roscpp_genera
 .PHONY : spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/build
 
 spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	cd /home/matteogiovagnini/spiderrobot_ws/build/spiderrobot_test && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
+	cd /media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_test && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/matteogiovagnini/spiderrobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteogiovagnini/spiderrobot_ws/src /home/matteogiovagnini/spiderrobot_ws/src/spiderrobot_test /home/matteogiovagnini/spiderrobot_ws/build /home/matteogiovagnini/spiderrobot_ws/build/spiderrobot_test /home/matteogiovagnini/spiderrobot_ws/build/spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/psf/GitHub/ROS/spiderrobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/GitHub/ROS/spiderrobot_ws/src /media/psf/GitHub/ROS/spiderrobot_ws/src/spiderrobot_test /media/psf/GitHub/ROS/spiderrobot_ws/build /media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_test /media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : spiderrobot_test/CMakeFiles/roscpp_generate_messages_py.dir/depend
 

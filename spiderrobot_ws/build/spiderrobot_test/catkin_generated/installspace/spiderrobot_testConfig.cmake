@@ -67,14 +67,14 @@ set(spiderrobot_test_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(spiderrobot_test_SOURCE_PREFIX /home/matteogiovagnini/spiderrobot_ws/src/spiderrobot_test)
-  set(spiderrobot_test_DEVEL_PREFIX /home/matteogiovagnini/spiderrobot_ws/devel)
+  set(spiderrobot_test_SOURCE_PREFIX /media/psf/GitHub/ROS/spiderrobot_ws/src/spiderrobot_test)
+  set(spiderrobot_test_DEVEL_PREFIX /media/psf/GitHub/ROS/spiderrobot_ws/devel)
   set(spiderrobot_test_INSTALL_PREFIX "")
   set(spiderrobot_test_PREFIX ${spiderrobot_test_DEVEL_PREFIX})
 else()
   set(spiderrobot_test_SOURCE_PREFIX "")
   set(spiderrobot_test_DEVEL_PREFIX "")
-  set(spiderrobot_test_INSTALL_PREFIX /home/matteogiovagnini/spiderrobot_ws/install)
+  set(spiderrobot_test_INSTALL_PREFIX /media/psf/GitHub/ROS/spiderrobot_ws/install)
   set(spiderrobot_test_PREFIX ${spiderrobot_test_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/matteogiovagnini/spiderrobot_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /media/psf/GitHub/ROS/spiderrobot_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
