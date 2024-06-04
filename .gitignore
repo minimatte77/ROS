@@ -1,1 +1,5 @@
+#DIRECTORY
+build
+
+# FILE
 *.log
