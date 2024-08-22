@@ -7,5 +7,6 @@
 subdirs("gtest")
 subdirs("arduinobot_description")
 subdirs("arduinobot_moveit")
+subdirs("arduinobot_remote")
 subdirs("arduinobot_test")
 subdirs("arduinobot_controller")

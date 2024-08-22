@@ -1,0 +1,8 @@
+prefix=/media/psf/GitHub/ROS/arduinobot_ws/devel
+
+Name: arduinobot_remote
+Description: Description of arduinobot_remote
+Version: 0.0.0
+Cflags: -I/media/psf/GitHub/ROS/arduinobot_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
