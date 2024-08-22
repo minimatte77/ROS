@@ -42,6 +42,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_test/action" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_test/action/Fibonacci.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_test/msg" TYPE FILE FILES
+    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_test/msg/FibonacciAction.msg"
+    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_test/msg/FibonacciActionGoal.msg"
+    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_test/msg/FibonacciActionResult.msg"
+    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_test/msg/FibonacciActionFeedback.msg"
+    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_test/msg/FibonacciGoal.msg"
+    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_test/msg/FibonacciResult.msg"
+    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_test/msg/FibonacciFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_test/cmake" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_test/catkin_generated/installspace/arduinobot_test-msg-paths.cmake")
 endif()
 

@@ -397,6 +397,12 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/noetic/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
+
 //Value Computed by CMake
 arduinobot_controller_BINARY_DIR:STATIC=/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_controller
 
@@ -408,6 +414,12 @@ arduinobot_description_BINARY_DIR:STATIC=/media/psf/GitHub/ROS/arduinobot_ws/bui
 
 //Value Computed by CMake
 arduinobot_description_SOURCE_DIR:STATIC=/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_description
+
+//Value Computed by CMake
+arduinobot_moveit_BINARY_DIR:STATIC=/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_moveit
+
+//Value Computed by CMake
+arduinobot_moveit_SOURCE_DIR:STATIC=/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_moveit
 
 //Value Computed by CMake
 arduinobot_test_BINARY_DIR:STATIC=/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_test
@@ -672,7 +684,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
