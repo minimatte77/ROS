@@ -184,6 +184,7 @@ int64 b
 ---
 # Response
 int64 sum
+
 ")
 
 (setf (get arduinobot_test::AddTwoIntsResponse :md5sum-) "6a2e34150c00229791cc89ff309fff21")
@@ -195,6 +196,7 @@ int64 b
 ---
 # Response
 int64 sum
+
 ")
 
 

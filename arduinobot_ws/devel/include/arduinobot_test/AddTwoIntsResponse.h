@@ -148,6 +148,7 @@ struct Definition< ::arduinobot_test::AddTwoIntsResponse_<ContainerAllocator> >
   {
     return "# Response\n"
 "int64 sum\n"
+"\n"
 ;
   }
 

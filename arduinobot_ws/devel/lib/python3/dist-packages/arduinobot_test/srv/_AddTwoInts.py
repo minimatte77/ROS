@@ -133,6 +133,7 @@ class AddTwoIntsResponse(genpy.Message):
   _has_header = False  # flag to mark the presence of a Header object
   _full_text = """# Response
 int64 sum
+
 """
   __slots__ = ['sum']
   _slot_types = ['int64']
