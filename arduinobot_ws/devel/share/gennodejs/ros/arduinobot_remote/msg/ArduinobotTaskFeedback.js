@@ -67,6 +67,7 @@ class ArduinobotTaskFeedback {
     # Feedback
     int64 percentage
     
+    
     `;
   }
 

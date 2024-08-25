@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciAction.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciActionFeedback.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciActionGoal.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciActionResult.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciFeedback.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciGoal.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciResult.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/srv/AddTwoInts.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciAction.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciActionFeedback.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciActionGoal.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciActionResult.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciFeedback.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciGoal.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/msg/FibonacciResult.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_test/srv/AddTwoInts.js"
   "CMakeFiles/arduinobot_test_generate_messages_nodejs"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_remote
+# Install script for directory: /home/matteo/ROS/arduinobot_ws/src/arduinobot_remote
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/psf/GitHub/ROS/arduinobot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/matteo/ROS/arduinobot_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,65 +38,65 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/action" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_remote/action/ArduinobotTask.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/action" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/src/arduinobot_remote/action/ArduinobotTask.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/msg" TYPE FILE FILES
-    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskAction.msg"
-    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionGoal.msg"
-    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionResult.msg"
-    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionFeedback.msg"
-    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskGoal.msg"
-    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskResult.msg"
-    "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskFeedback.msg"
+    "/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskAction.msg"
+    "/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionGoal.msg"
+    "/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionResult.msg"
+    "/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionFeedback.msg"
+    "/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskGoal.msg"
+    "/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskResult.msg"
+    "/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/cmake" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remote-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/cmake" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remote-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_remote")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_remote")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_remote")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/matteo/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_remote")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_remote")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/matteo/ROS/arduinobot_ws/devel/lib/python3/dist-packages/arduinobot_remote")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remote.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remote.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/cmake" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remote-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/cmake" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remote-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote/cmake" TYPE FILE FILES
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remoteConfig.cmake"
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remoteConfig-version.cmake"
+    "/home/matteo/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remoteConfig.cmake"
+    "/home/matteo/ROS/arduinobot_ws/build/arduinobot_remote/catkin_generated/installspace/arduinobot_remoteConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_remote/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_remote" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/src/arduinobot_remote/package.xml")
 endif()
 

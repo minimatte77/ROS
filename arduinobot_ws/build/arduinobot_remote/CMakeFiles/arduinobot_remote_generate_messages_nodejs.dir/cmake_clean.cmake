@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskAction.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskFeedback.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskGoal.js"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskResult.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskAction.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskFeedback.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskGoal.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_remote/msg/ArduinobotTaskResult.js"
   "CMakeFiles/arduinobot_remote_generate_messages_nodejs"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/psf/GitHub/ROS/arduinobot_ws/src
+CMAKE_SOURCE_DIR = /home/matteo/ROS/arduinobot_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/psf/GitHub/ROS/arduinobot_ws/build
+CMAKE_BINARY_DIR = /home/matteo/ROS/arduinobot_ws/build
 
 # Utility rule file for arduinobot_remote_gennodejs.
 
@@ -63,10 +63,10 @@ arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/build: arduinobot_r
 .PHONY : arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/build
 
 arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/clean:
-	cd /media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote && $(CMAKE_COMMAND) -P CMakeFiles/arduinobot_remote_gennodejs.dir/cmake_clean.cmake
+	cd /home/matteo/ROS/arduinobot_ws/build/arduinobot_remote && $(CMAKE_COMMAND) -P CMakeFiles/arduinobot_remote_gennodejs.dir/cmake_clean.cmake
 .PHONY : arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/clean
 
 arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/depend:
-	cd /media/psf/GitHub/ROS/arduinobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/GitHub/ROS/arduinobot_ws/src /media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_remote /media/psf/GitHub/ROS/arduinobot_ws/build /media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote /media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matteo/ROS/arduinobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/ROS/arduinobot_ws/src /home/matteo/ROS/arduinobot_ws/src/arduinobot_remote /home/matteo/ROS/arduinobot_ws/build /home/matteo/ROS/arduinobot_ws/build/arduinobot_remote /home/matteo/ROS/arduinobot_ws/build/arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : arduinobot_remote/CMakeFiles/arduinobot_remote_gennodejs.dir/depend
 

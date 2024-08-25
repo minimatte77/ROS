@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_publisher"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_publisher.pdb"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_publisher"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_publisher.pdb"
   "CMakeFiles/simple_cpp_publisher.dir/src/simple_publisher.cpp.o"
 )
 

@@ -195,6 +195,7 @@ class ArduinobotTaskAction {
     # Feedback
     int64 percentage
     
+    
     `;
   }
 

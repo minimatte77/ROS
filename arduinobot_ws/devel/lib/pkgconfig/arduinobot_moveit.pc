@@ -1,4 +1,4 @@
-prefix=/media/psf/GitHub/ROS/arduinobot_ws/devel
+prefix=/home/matteo/ROS/arduinobot_ws/devel
 
 Name: arduinobot_moveit
 Description: Description of arduinobot_moveit

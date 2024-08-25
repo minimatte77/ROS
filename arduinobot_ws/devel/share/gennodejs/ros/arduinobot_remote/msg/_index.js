@@ -1,20 +1,20 @@
 
 "use strict";
 
-let ArduinobotTaskAction = require('./ArduinobotTaskAction.js');
-let ArduinobotTaskActionFeedback = require('./ArduinobotTaskActionFeedback.js');
-let ArduinobotTaskFeedback = require('./ArduinobotTaskFeedback.js');
 let ArduinobotTaskResult = require('./ArduinobotTaskResult.js');
+let ArduinobotTaskAction = require('./ArduinobotTaskAction.js');
+let ArduinobotTaskFeedback = require('./ArduinobotTaskFeedback.js');
+let ArduinobotTaskGoal = require('./ArduinobotTaskGoal.js');
 let ArduinobotTaskActionGoal = require('./ArduinobotTaskActionGoal.js');
 let ArduinobotTaskActionResult = require('./ArduinobotTaskActionResult.js');
-let ArduinobotTaskGoal = require('./ArduinobotTaskGoal.js');
+let ArduinobotTaskActionFeedback = require('./ArduinobotTaskActionFeedback.js');
 
 module.exports = {
-  ArduinobotTaskAction: ArduinobotTaskAction,
-  ArduinobotTaskActionFeedback: ArduinobotTaskActionFeedback,
-  ArduinobotTaskFeedback: ArduinobotTaskFeedback,
   ArduinobotTaskResult: ArduinobotTaskResult,
+  ArduinobotTaskAction: ArduinobotTaskAction,
+  ArduinobotTaskFeedback: ArduinobotTaskFeedback,
+  ArduinobotTaskGoal: ArduinobotTaskGoal,
   ArduinobotTaskActionGoal: ArduinobotTaskActionGoal,
   ArduinobotTaskActionResult: ArduinobotTaskActionResult,
-  ArduinobotTaskGoal: ArduinobotTaskGoal,
+  ArduinobotTaskActionFeedback: ArduinobotTaskActionFeedback,
 };

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/psf/GitHub/ROS/spiderrobot_ws/src
+CMAKE_SOURCE_DIR = /home/matteo/ROS/spiderrobot_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/psf/GitHub/ROS/spiderrobot_ws/build
+CMAKE_BINARY_DIR = /home/matteo/ROS/spiderrobot_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/build: _cat
 .PHONY : spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/matteo/ROS/spiderrobot_ws/build/spiderrobot_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /media/psf/GitHub/ROS/spiderrobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/psf/GitHub/ROS/spiderrobot_ws/src /media/psf/GitHub/ROS/spiderrobot_ws/src/spiderrobot_description /media/psf/GitHub/ROS/spiderrobot_ws/build /media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_description /media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matteo/ROS/spiderrobot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/ROS/spiderrobot_ws/src /home/matteo/ROS/spiderrobot_ws/src/spiderrobot_description /home/matteo/ROS/spiderrobot_ws/build /home/matteo/ROS/spiderrobot_ws/build/spiderrobot_description /home/matteo/ROS/spiderrobot_ws/build/spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : spiderrobot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

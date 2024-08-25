@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_subscriber"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_subscriber.pdb"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_subscriber"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_subscriber.pdb"
   "CMakeFiles/simple_cpp_subscriber.dir/src/simple_subscriber.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "arduinobot_remote")
 set(arduinobot_remote_VERSION "0.0.0")
-set(arduinobot_remote_MAINTAINER "matteogiovagnini <matteogiovagnini@todo.todo>")
+set(arduinobot_remote_MAINTAINER "matteo <matteo@todo.todo>")
 set(arduinobot_remote_PACKAGE_FORMAT "2")
 set(arduinobot_remote_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
 set(arduinobot_remote_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")

@@ -1,4 +1,4 @@
-prefix=/media/psf/GitHub/ROS/arduinobot_ws/install
+prefix=/home/matteo/ROS/arduinobot_ws/install
 
 Name: arduinobot_controller
 Description: Description of arduinobot_controller

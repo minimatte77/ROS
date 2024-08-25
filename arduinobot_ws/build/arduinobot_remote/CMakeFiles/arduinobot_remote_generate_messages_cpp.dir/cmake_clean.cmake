@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskAction.h"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskActionFeedback.h"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskActionGoal.h"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskActionResult.h"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskFeedback.h"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskGoal.h"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskResult.h"
+  "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskAction.h"
+  "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskActionFeedback.h"
+  "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskActionGoal.h"
+  "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskActionResult.h"
+  "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskFeedback.h"
+  "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskGoal.h"
+  "/home/matteo/ROS/arduinobot_ws/devel/include/arduinobot_remote/ArduinobotTaskResult.h"
   "CMakeFiles/arduinobot_remote_generate_messages_cpp"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_timer"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_timer.pdb"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_timer"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_timer.pdb"
   "CMakeFiles/simple_cpp_timer.dir/src/simple_timer.cpp.o"
 )
 

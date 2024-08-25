@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_controller/srv/AnglesConverter.js"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/gennodejs/ros/arduinobot_controller/srv/AnglesConverter.js"
   "CMakeFiles/arduinobot_controller_generate_messages_nodejs"
 )
 

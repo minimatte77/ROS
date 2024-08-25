@@ -1,8 +1,8 @@
-# Install script for directory: /media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_moveit
+# Install script for directory: /home/matteo/ROS/arduinobot_ws/src/arduinobot_moveit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/psf/GitHub/ROS/arduinobot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/matteo/ROS/arduinobot_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_moveit/catkin_generated/installspace/arduinobot_moveit.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/build/arduinobot_moveit/catkin_generated/installspace/arduinobot_moveit.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit/cmake" TYPE FILE FILES
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_moveit/catkin_generated/installspace/arduinobot_moveitConfig.cmake"
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_moveit/catkin_generated/installspace/arduinobot_moveitConfig-version.cmake"
+    "/home/matteo/ROS/arduinobot_ws/build/arduinobot_moveit/catkin_generated/installspace/arduinobot_moveitConfig.cmake"
+    "/home/matteo/ROS/arduinobot_ws/build/arduinobot_moveit/catkin_generated/installspace/arduinobot_moveitConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_moveit/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/src/arduinobot_moveit/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit" TYPE DIRECTORY FILES "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit" TYPE DIRECTORY FILES "/home/matteo/ROS/arduinobot_ws/src/arduinobot_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit" TYPE DIRECTORY FILES "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_moveit/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_moveit" TYPE DIRECTORY FILES "/home/matteo/ROS/arduinobot_ws/src/arduinobot_moveit/config")
 endif()
 

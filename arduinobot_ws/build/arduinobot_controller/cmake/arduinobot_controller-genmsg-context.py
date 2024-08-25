@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_controller/srv/AnglesConverter.srv"
+services_str = "/home/matteo/ROS/arduinobot_ws/src/arduinobot_controller/srv/AnglesConverter.srv"
 pkg_name = "arduinobot_controller"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

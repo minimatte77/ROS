@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciAction.lisp"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciActionFeedback.lisp"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciActionGoal.lisp"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciActionResult.lisp"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciFeedback.lisp"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciGoal.lisp"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciResult.lisp"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/srv/AddTwoInts.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciAction.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciActionFeedback.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciActionGoal.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciActionResult.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciFeedback.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciGoal.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/msg/FibonacciResult.lisp"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/common-lisp/ros/arduinobot_test/srv/AddTwoInts.lisp"
   "CMakeFiles/arduinobot_test_generate_messages_lisp"
 )
 

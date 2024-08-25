@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_test/src/simple_subscriber.cpp
+/home/matteo/ROS/arduinobot_ws/src/arduinobot_test/src/simple_subscriber.cpp
 ros/ros.h
-/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_test/src/ros/ros.h
+/home/matteo/ROS/arduinobot_ws/src/arduinobot_test/src/ros/ros.h
 std_msgs/String.h
-/media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_test/src/std_msgs/String.h
+/home/matteo/ROS/arduinobot_ws/src/arduinobot_test/src/std_msgs/String.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

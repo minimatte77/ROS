@@ -1,4 +1,4 @@
-prefix=/media/psf/GitHub/ROS/spiderrobot_ws/devel
+prefix=/home/matteo/ROS/spiderrobot_ws/devel
 
 Name: spiderrobot_test
 Description: Description of spiderrobot_test

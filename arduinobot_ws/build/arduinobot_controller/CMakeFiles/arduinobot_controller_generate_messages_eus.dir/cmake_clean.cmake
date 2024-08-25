@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_controller/manifest.l"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_controller/srv/AnglesConverter.l"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_controller/manifest.l"
+  "/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_controller/srv/AnglesConverter.l"
   "CMakeFiles/arduinobot_controller_generate_messages_eus"
 )
 

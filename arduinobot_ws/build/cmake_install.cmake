@@ -1,8 +1,8 @@
-# Install script for directory: /media/psf/GitHub/ROS/arduinobot_ws/src
+# Install script for directory: /home/matteo/ROS/arduinobot_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/psf/GitHub/ROS/arduinobot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/matteo/ROS/arduinobot_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,93 +49,93 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/psf/GitHub/ROS/arduinobot_ws/install/_setup_util.py")
+   "/home/matteo/ROS/arduinobot_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/psf/GitHub/ROS/arduinobot_ws/install" TYPE PROGRAM FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/matteo/ROS/arduinobot_ws/install" TYPE PROGRAM FILES "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/psf/GitHub/ROS/arduinobot_ws/install/env.sh")
+   "/home/matteo/ROS/arduinobot_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/psf/GitHub/ROS/arduinobot_ws/install" TYPE PROGRAM FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/matteo/ROS/arduinobot_ws/install" TYPE PROGRAM FILES "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/psf/GitHub/ROS/arduinobot_ws/install/setup.bash;/media/psf/GitHub/ROS/arduinobot_ws/install/local_setup.bash")
+   "/home/matteo/ROS/arduinobot_ws/install/setup.bash;/home/matteo/ROS/arduinobot_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/psf/GitHub/ROS/arduinobot_ws/install" TYPE FILE FILES
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/setup.bash"
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/matteo/ROS/arduinobot_ws/install" TYPE FILE FILES
+    "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/psf/GitHub/ROS/arduinobot_ws/install/setup.sh;/media/psf/GitHub/ROS/arduinobot_ws/install/local_setup.sh")
+   "/home/matteo/ROS/arduinobot_ws/install/setup.sh;/home/matteo/ROS/arduinobot_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/psf/GitHub/ROS/arduinobot_ws/install" TYPE FILE FILES
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/setup.sh"
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/matteo/ROS/arduinobot_ws/install" TYPE FILE FILES
+    "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/psf/GitHub/ROS/arduinobot_ws/install/setup.zsh;/media/psf/GitHub/ROS/arduinobot_ws/install/local_setup.zsh")
+   "/home/matteo/ROS/arduinobot_ws/install/setup.zsh;/home/matteo/ROS/arduinobot_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/psf/GitHub/ROS/arduinobot_ws/install" TYPE FILE FILES
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/setup.zsh"
-    "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/matteo/ROS/arduinobot_ws/install" TYPE FILE FILES
+    "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/psf/GitHub/ROS/arduinobot_ws/install/.rosinstall")
+   "/home/matteo/ROS/arduinobot_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/media/psf/GitHub/ROS/arduinobot_ws/install" TYPE FILE FILES "/media/psf/GitHub/ROS/arduinobot_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/matteo/ROS/arduinobot_ws/install" TYPE FILE FILES "/home/matteo/ROS/arduinobot_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/media/psf/GitHub/ROS/arduinobot_ws/build/gtest/cmake_install.cmake")
-  include("/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_description/cmake_install.cmake")
-  include("/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_moveit/cmake_install.cmake")
-  include("/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_remote/cmake_install.cmake")
-  include("/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_test/cmake_install.cmake")
-  include("/media/psf/GitHub/ROS/arduinobot_ws/build/arduinobot_controller/cmake_install.cmake")
+  include("/home/matteo/ROS/arduinobot_ws/build/gtest/cmake_install.cmake")
+  include("/home/matteo/ROS/arduinobot_ws/build/arduinobot_description/cmake_install.cmake")
+  include("/home/matteo/ROS/arduinobot_ws/build/arduinobot_moveit/cmake_install.cmake")
+  include("/home/matteo/ROS/arduinobot_ws/build/arduinobot_remote/cmake_install.cmake")
+  include("/home/matteo/ROS/arduinobot_ws/build/arduinobot_test/cmake_install.cmake")
+  include("/home/matteo/ROS/arduinobot_ws/build/arduinobot_controller/cmake_install.cmake")
 
 endif()
 
@@ -147,5 +147,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/psf/GitHub/ROS/arduinobot_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/matteo/ROS/arduinobot_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

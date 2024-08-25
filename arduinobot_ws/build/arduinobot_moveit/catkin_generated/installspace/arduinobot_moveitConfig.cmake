@@ -67,14 +67,14 @@ set(arduinobot_moveit_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(arduinobot_moveit_SOURCE_PREFIX /media/psf/GitHub/ROS/arduinobot_ws/src/arduinobot_moveit)
-  set(arduinobot_moveit_DEVEL_PREFIX /media/psf/GitHub/ROS/arduinobot_ws/devel)
+  set(arduinobot_moveit_SOURCE_PREFIX /home/matteo/ROS/arduinobot_ws/src/arduinobot_moveit)
+  set(arduinobot_moveit_DEVEL_PREFIX /home/matteo/ROS/arduinobot_ws/devel)
   set(arduinobot_moveit_INSTALL_PREFIX "")
   set(arduinobot_moveit_PREFIX ${arduinobot_moveit_DEVEL_PREFIX})
 else()
   set(arduinobot_moveit_SOURCE_PREFIX "")
   set(arduinobot_moveit_DEVEL_PREFIX "")
-  set(arduinobot_moveit_INSTALL_PREFIX /media/psf/GitHub/ROS/arduinobot_ws/install)
+  set(arduinobot_moveit_INSTALL_PREFIX /home/matteo/ROS/arduinobot_ws/install)
   set(arduinobot_moveit_PREFIX ${arduinobot_moveit_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /media/psf/GitHub/ROS/arduinobot_ws/install/lib;/media/psf/GitHub/ROS/arduinobot_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/matteo/ROS/arduinobot_ws/install/lib;/home/matteo/ROS/arduinobot_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

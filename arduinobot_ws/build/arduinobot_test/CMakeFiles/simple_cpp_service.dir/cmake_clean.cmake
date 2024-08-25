@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_service"
-  "/media/psf/GitHub/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_service.pdb"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_service"
+  "/home/matteo/ROS/arduinobot_ws/devel/lib/arduinobot_test/simple_cpp_service.pdb"
   "CMakeFiles/simple_cpp_service.dir/src/simple_service.cpp.o"
 )
 

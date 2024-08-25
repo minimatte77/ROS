@@ -1,8 +1,8 @@
-# Install script for directory: /media/psf/GitHub/ROS/spiderrobot_ws/src/spiderrobot_description
+# Install script for directory: /home/matteo/ROS/spiderrobot_ws/src/spiderrobot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/psf/GitHub/ROS/spiderrobot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/matteo/ROS/spiderrobot_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_description/catkin_generated/installspace/spiderrobot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/matteo/ROS/spiderrobot_ws/build/spiderrobot_description/catkin_generated/installspace/spiderrobot_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spiderrobot_description/cmake" TYPE FILE FILES
-    "/media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_description/catkin_generated/installspace/spiderrobot_descriptionConfig.cmake"
-    "/media/psf/GitHub/ROS/spiderrobot_ws/build/spiderrobot_description/catkin_generated/installspace/spiderrobot_descriptionConfig-version.cmake"
+    "/home/matteo/ROS/spiderrobot_ws/build/spiderrobot_description/catkin_generated/installspace/spiderrobot_descriptionConfig.cmake"
+    "/home/matteo/ROS/spiderrobot_ws/build/spiderrobot_description/catkin_generated/installspace/spiderrobot_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spiderrobot_description" TYPE FILE FILES "/media/psf/GitHub/ROS/spiderrobot_ws/src/spiderrobot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spiderrobot_description" TYPE FILE FILES "/home/matteo/ROS/spiderrobot_ws/src/spiderrobot_description/package.xml")
 endif()
 
