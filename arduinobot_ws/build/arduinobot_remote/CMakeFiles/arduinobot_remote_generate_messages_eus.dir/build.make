@@ -65,41 +65,41 @@ arduinobot_remote/CMakeFiles/arduinobot_remote_generate_messages_eus: /home/matt
 
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskAction.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionResult.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskResult.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskFeedback.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskGoal.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionResult.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionGoal.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskFeedback.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionFeedback.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matteo/ROS/arduinobot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from arduinobot_remote/ArduinobotTaskAction.msg"
 	cd /home/matteo/ROS/arduinobot_ws/build/arduinobot_remote && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskAction.msg -Iarduinobot_remote:/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p arduinobot_remote -o /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg
 
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionGoal.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskGoal.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionGoal.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matteo/ROS/arduinobot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from arduinobot_remote/ArduinobotTaskActionGoal.msg"
 	cd /home/matteo/ROS/arduinobot_ws/build/arduinobot_remote && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionGoal.msg -Iarduinobot_remote:/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p arduinobot_remote -o /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg
 
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionResult.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskResult.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionResult.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matteo/ROS/arduinobot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from arduinobot_remote/ArduinobotTaskActionResult.msg"
 	cd /home/matteo/ROS/arduinobot_ws/build/arduinobot_remote && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionResult.msg -Iarduinobot_remote:/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p arduinobot_remote -o /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg
 
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionFeedback.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskFeedback.msg
-/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg/ArduinobotTaskActionFeedback.l: /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matteo/ROS/arduinobot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from arduinobot_remote/ArduinobotTaskActionFeedback.msg"
 	cd /home/matteo/ROS/arduinobot_ws/build/arduinobot_remote && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg/ArduinobotTaskActionFeedback.msg -Iarduinobot_remote:/home/matteo/ROS/arduinobot_ws/devel/share/arduinobot_remote/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p arduinobot_remote -o /home/matteo/ROS/arduinobot_ws/devel/share/roseus/ros/arduinobot_remote/msg
 
