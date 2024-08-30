@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/matteo/ROS/arduinobot_ws/build
 
 # The main recursive "all" target.
 all: gtest/all
+all: arduinobot_bringup/all
 all: arduinobot_description/all
 all: arduinobot_moveit/all
 all: arduinobot_remote/all
@@ -64,6 +65,7 @@ all: arduinobot_controller/all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
+preinstall: arduinobot_bringup/preinstall
 preinstall: arduinobot_description/preinstall
 preinstall: arduinobot_moveit/preinstall
 preinstall: arduinobot_remote/preinstall
@@ -79,6 +81,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
+clean: arduinobot_bringup/clean
 clean: arduinobot_description/clean
 clean: arduinobot_moveit/clean
 clean: arduinobot_remote/clean
@@ -86,6 +89,24 @@ clean: arduinobot_test/clean
 clean: arduinobot_controller/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory arduinobot_bringup
+
+# Recursive "all" directory target.
+arduinobot_bringup/all:
+
+.PHONY : arduinobot_bringup/all
+
+# Recursive "preinstall" directory target.
+arduinobot_bringup/preinstall:
+
+.PHONY : arduinobot_bringup/preinstall
+
+# Recursive "clean" directory target.
+arduinobot_bringup/clean: arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : arduinobot_bringup/clean
 
 #=============================================================================
 # Directory level rules for directory arduinobot_controller
@@ -130,7 +151,7 @@ arduinobot_description/preinstall:
 .PHONY : arduinobot_description/preinstall
 
 # Recursive "clean" directory target.
-arduinobot_description/clean: arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+arduinobot_description/clean:
 
 .PHONY : arduinobot_description/clean
 
@@ -621,31 +642,31 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
-# Target rules for target arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir
+# Target rules for target arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir
 
 # All Build rule for target.
-arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
+arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/build.make arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/build.make arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matteo/ROS/arduinobot_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
+.PHONY : arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
-arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/ROS/arduinobot_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/ROS/arduinobot_ws/build/CMakeFiles 0
-.PHONY : arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 .PHONY : _catkin_empty_exported_target
 
 # clean rule for target.
-arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : arduinobot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/build.make arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : arduinobot_bringup/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target arduinobot_remote/CMakeFiles/arduinobot_remote_genpy.dir

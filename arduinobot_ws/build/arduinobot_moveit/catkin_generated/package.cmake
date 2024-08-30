@@ -11,6 +11,6 @@ set(arduinobot_moveit_RUN_DEPENDS "moveit_ros_move_group" "moveit_fake_controlle
 set(arduinobot_moveit_TEST_DEPENDS )
 set(arduinobot_moveit_DOC_DEPENDS )
 set(arduinobot_moveit_URL_WEBSITE "http://moveit.ros.org/")
-set(arduinobot_moveit_URL_BUGTRACKER "https://github.com/moveit/moveit/issues")
-set(arduinobot_moveit_URL_REPOSITORY "https://github.com/moveit/moveit")
+set(arduinobot_moveit_URL_BUGTRACKER "https://github.com/ros-planning/moveit/issues")
+set(arduinobot_moveit_URL_REPOSITORY "https://github.com/ros-planning/moveit")
 set(arduinobot_moveit_DEPRECATED "")
