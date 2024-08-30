@@ -40,7 +40,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
 class PickIntentHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
-        return is_intent_name("PickIntent")(handler_input)
+        return is_intent_name("Pickintent")(handler_input)
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
@@ -58,7 +58,7 @@ class PickIntentHandler(AbstractRequestHandler):
 class SleepIntentHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
-        return is_intent_name("SleepIntent")(handler_input)
+        return is_intent_name("Sleepintent")(handler_input)
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
@@ -77,7 +77,7 @@ class SleepIntentHandler(AbstractRequestHandler):
 class WakeIntentHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
-        return is_intent_name("WakeIntent")(handler_input)
+        return is_intent_name("Wakeintent")(handler_input)
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
